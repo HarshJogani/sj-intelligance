@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #cd2027;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+.banner {
+  width: 100%;
+  padding: 1rem;
+  background-color: #000;
+}
+
+/*HEADER*/
+header {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+}
+
+header section {
+  width: 100%;
+  padding: 0.5rem 2rem;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header section span {
+  padding: 0 1rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+header section span a {
+  color: #fff;
+}
+
+header section span:not(:last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+header span .fa {
+  color: red;
+  margin: 0 5px;
+}
+
+header .btn1 {
+  padding: 5px 10px !important;
+}
+
+@media (max-width:820px) {
+  header section:nth-child(1) {
+    display: none !important;
+  }
+
+  header section {
+    padding: 0.5rem 0rem;
+  }
+}
+
+@media (max-width:340px) {
+  header section span {
+    padding: 0 2px;
+  }
+}
+
+.topnav {
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  box-shadow: 0px 6px 16px -6px rgba(1, 1, 1, 0.5);
+}
+
+.topnav section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#navbar {
+  position: sticky;
+  top: 0px;
+  transition: 3s;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 24px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  margin: 0px 15px;
+}
+
+.topnav a:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: red;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.active {
+  border-bottom: 2px solid red;
+}
+
+#desk_logo {
+  display: flex;
+  justify-content: center;
+  margin-left: 102px;
+}
+
+#logo {
+  background-color: #FFF;
+  padding: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1%;
+}
+
+.topnav .btn1 {
+  background-color: red;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.topnav .btn1:hover {
+  background-color: #1e1e1e;
+}
+
+.topnav .icon {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+.topnav .icon:hover {
+  background: none;
+  color: red;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}

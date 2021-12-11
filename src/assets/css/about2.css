@@ -1,0 +1,84 @@
+.border-exe {
+  width: 106px;
+  height: 99px;
+  border: 7px solid #1990D2 !important;
+  padding: 20px 0;
+  text-align: center;
+  position: absolute;
+  right: 80px;
+  bottom: -50px
+}
+
+.border-exe h3 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif
+}
+
+.exe {
+  text-align: left;
+  font-weight: 700;
+  position: absolute;
+  top: 0px;
+  right: -84px;
+  font-size: 17px
+}
+
+.posi {
+  position: relative
+}
+
+.img-small {
+  position: absolute;
+  right: -25%;
+  bottom: -65px;
+  z-index: -1
+}
+
+.img-small .img-small-1 {
+  position: absolute;
+  top: -150px;
+  left: 70%
+}
+
+.site-sub-heading .site-wave {
+  position: absolute;
+  z-index: -1;
+  width: 12rem;
+  height: 7.4rem;
+  top: -15px;
+  left: -15px
+}
+
+.heading h2 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 20px
+}
+
+.para p {
+  color: #555
+}
+
+.icons3 div svg {
+  width: 60px;
+  fill: #1990d2
+}
+
+.icons3 {
+  margin-top: 35px
+}
+
+.icons3 div {
+  display: flex
+}
+
+.detaill {
+  margin: 0 25px;
+  flex-direction: column
+}
+
+.head {
+  font-weight: 500
+}

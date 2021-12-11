@@ -1,0 +1,44 @@
+.second .portfolio-bg {
+  background-image: url('https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?cs=srgb&dl=art-art-materials-artwork-1053687.jpg&fm=jpg');
+}
+
+.third .portfolio-bg {
+  background-image: url('https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?cs=srgb&dl=brainstorming-campaign-collaborate-6224.jpg&fm=jpg');
+}
+
+.portfolio .label {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden
+}
+
+.portfolio .label-bg {
+  background: #232323;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1px;
+}
+
+.portfolio .label-text {
+  color: #fff;
+  position: relative;
+  z-index: 500;
+  padding: 50px 20px;
+}
+
+.portfolio:hover .label {
+  opacity: 1;
+  visibility: visible;
+}
+
+.portfolio .text-category {
+  display: block;
+}

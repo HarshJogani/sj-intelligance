@@ -1,0 +1,136 @@
+h3 img {
+  position: absolute;
+  z-index: -1;
+  width: 4rem;
+  height: 7.4rem;
+  top: -15px;
+  right: 1px;
+  transform: rotate(205deg)
+}
+
+.site-sub-heading {
+  font-size: 1.2rem;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  border: 3px solid #ff4a17;
+  color: #ababab;
+  display: inline-block
+}
+
+@media only screen and (max-width: 1700px) {
+  .img-small-1 {
+    display: none
+  }
+
+  .container {
+    margin: 150px !important
+  }
+}
+
+@media only screen and (max-width: 1565px) {
+  .container {
+    max-width: 960px;
+    margin: 150px !important
+  }
+}
+
+@media only screen and (max-width: 1281px) {
+  .container {
+    max-width: 960px;
+    margin: 50px !important
+  }
+
+  .home-about-btn {
+    margin-left: 0
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .offset-lg-1 {
+    margin-left: 0 !important
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  .img-small-2 {
+    display: none
+  }
+}
+
+@media only screen and (max-width: 1014px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-left: 0 !important
+  }
+
+  .over-hidden {
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .img-buss {
+    width: 100% !important;
+    height: 600px
+  }
+
+  .posi {
+    display: flex;
+    justify-content: center;
+    position: inherit !important
+  }
+
+  .about-right {
+    text-align: center
+  }
+
+  .icons3 div {
+    display: block !important
+  }
+
+  .border-exe {
+    width: 100% !important;
+    bottom: -118px !important;
+    right: 0px !important;
+    text-align: center
+  }
+
+  .exe {
+    position: relative !important;
+    top: 40px !important;
+    right: 0px !important;
+    text-align: center !important
+  }
+
+  .exe br {
+    display: none !important
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .heading h2 {
+    font-size: 32px !important;
+  }
+
+  .border-exe {
+    width: 100% !important;
+    bottom: -11% !important;
+    right: 0px !important;
+    text-align: center
+  }
+
+  .offset-lg-1 {
+    margin-left: 0 !important
+  }
+}
+
+.img-buss {
+  width: 344px
+}

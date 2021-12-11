@@ -1,0 +1,40 @@
+.site-wave img {
+  max-width: 140%;
+  transition: all .3s ease-out 0s;
+  height: 44px;
+  width: 99px;
+  position: absolute;
+  left: -22px;
+  transform: rotate(14deg);
+  top: 15px;
+  z-index: -1;
+  filter: invert(0%) sepia(35%) saturate(3301%) hue-rotate(178deg) brightness(106%) contrast(102%);
+}
+
+.site-wave2 img {
+  right: 1px !important;
+  left: 254px !important;
+  transform: rotate(385deg) !important;
+  width: 120px !important;
+  height: 35px !important;
+  left: 222px !important;
+  top: -4px !important;
+}
+
+.section-sub-title {
+  font-size: 1.2rem;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 3px solid #ff4a17;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 360px) {
+  .section-sub-title {
+    font-size: 1rem;
+  }
+
+}

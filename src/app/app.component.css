@@ -1,0 +1,17 @@
+/* .loader2 {
+  animation: anima 4S   1 ease-in-out;
+}
+
+@keyframes anima{
+    from{
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    to{
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+    }
+} */

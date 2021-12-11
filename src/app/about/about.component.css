@@ -1,0 +1,148 @@
+@keyframes circle-fade-before {
+  0% {
+    transform: scale(1);
+    opacity: 1
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0
+  }
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: 250px;
+  margin-top: 70px
+}
+
+.svg {
+  fill: #7141b1;
+  height: 18px;
+  cursor: pointer
+}
+
+.icon-box-s1 .icon-main {
+  color: #7141b1
+}
+
+.icon-box-s1 .icon-main i,
+.icon-box-s1 .icon-main span:before {
+  font-size: 40px
+}
+
+.icon-box-s1 .icon-main img {
+  width: 40px;
+  /* filter: invert(53%) sepia(91%) saturate(3232%) hue-rotate(158deg) brightness(75%) contrast(455%); */
+  filter: invert(53%) sepia(91%) saturate(3232%) hue-rotate(204deg) brightness(100%) contrast(397%);
+}
+
+.icon-box-s1 h5 {
+  font-size: 18px;
+  font-weight: 600
+}
+
+.icon-box-s1 h5 a {
+  color: #1b1d21
+}
+
+.icon-box-s1 .line-box {
+  height: 3px;
+  width: 100%;
+  background: #efefef;
+  margin-bottom: 15px;
+  position: relative
+}
+
+.icon-box-s1 .line-box:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  background: #7141b1;
+  height: 100%;
+  transition: all .3s linear;
+}
+
+.icon-box-s1:hover .line-box:after {
+  left: 0;
+  right: auto;
+  width: 100%
+}
+
+.home-about-btn {
+  margin-left: 100px
+}
+
+.home-about-video {
+  background-image: url('../../assets/img/home-about.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  min-height: 400px;
+  margin-bottom: 45px;
+  box-shadow: 3px 3px 30px #0000004d
+}
+
+.about-right {
+  position: relative
+}
+
+.btn-play {
+  position: relative;
+  width: 65px;
+  height: 65px;
+  display: inline-block;
+  background: #43baff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 68px;
+  font-size: 19px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.btn-play i {
+  margin-left: 7%
+}
+
+.btn-play:hover {
+  background: #fff;
+  color: #43baff
+}
+
+.video-btn a span {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(255, 255, 255, .8);
+  animation: circle-fade-before 2s infinite ease-in-out;
+  border-radius: 50%;
+  border-color: #43baff
+}
+
+.video-btn a .circle-2 {
+  animation: circle-fade-after 2s infinite ease-in-out;
+}
+
+.video-btn a:hover span {
+  border-color: #fff
+}
+
+.site-wave img {
+  max-width: 140%;
+  transition: all .3s ease-out 0s;
+  height: 30px;
+  width: 133px;
+  position: absolute;
+  left: -21px;
+  transform: rotate(148deg);
+  top: 15px
+}

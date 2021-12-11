@@ -1,0 +1,86 @@
+canvas {
+  display: block;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000022;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+
+.container-fluid {
+  height: 100vh;
+  padding: 0px !important;
+}
+
+#stats,
+.count-particles {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+.img {
+  height: 99vh;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img img {
+  z-index: 999999999;
+}
+
+.logo img {
+  width: 25px;
+}
+
+.canvas-button {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  top: 20px;
+  z-index: 9999999999999;
+}
+
+.logo {
+  margin-right: 20px;
+  padding: 3px 13px;
+  cursor: pointer;
+  border: none;
+
+}
+
+.login {
+  margin-right: 20px;
+  padding: 4px 13px;
+  cursor: pointer;
+  border: none;
+}
+
+@media only screen and (max-width:450px) {
+  .img img {
+    width: 50%;
+  }
+}
